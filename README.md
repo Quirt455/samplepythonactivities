@@ -15,11 +15,10 @@ You enters the x and y coordinates of two points, and the program calculates the
 ## Inputs needed
 
 Inputs:
-
-x1:  
-y1: 
-x2:  
-y2: 
+2
+3
+7
+8
 
 ## Sample output
 x1: 2
