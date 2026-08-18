@@ -1,0 +1,85 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNns+8a+JLPWGe2dyj86sTJ",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Quirt455/samplepythonactivities/blob/main/Q1_Narra_FA1_Bitantos\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "t_H7oy62Qgbs",
+        "outputId": "f5d818ff-14a9-45dd-fefa-a0d4dd34604c"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter x12\n",
+            "Enter y13\n",
+            "Enter x27\n",
+            "Enter y28\n",
+            "7.0710678118654755\n"
+          ]
+        }
+      ],
+      "source": [
+        "\n",
+        "import math\n",
+        "\n",
+        "x1 = float(input(\"Enter x1\"))\n",
+        "y1 = float(input(\"Enter y1\"))\n",
+        "x2 = float(input(\"Enter x2\"))\n",
+        "y2 = float(input(\"Enter y2\"))\n",
+        "\n",
+        "diff_x = x1 - x2\n",
+        "diff_y = y1 - y2\n",
+        "\n",
+        "squared_diff_x = math.pow(diff_x,2)\n",
+        "squared_diff_y = math.pow(diff_y,2)\n",
+        "\n",
+        "sum_of_square_diffs = squared_diff_x + squared_diff_y\n",
+        "\n",
+        "distance = round(math.sqrt(sum_of_square_diffs), 2)\n",
+        "\n",
+        "print(distance)\n",
+        "\n",
+        "\n",
+        "#Using a library like 'math' is practical because it gives pre-built, easy to use, and tested functions,\n",
+        "# saving some time from coding and reducing the errors. For example, 'math.sqrt()' and 'math.pow()' allowed me to\n",
+        "# calculate square roots and powers without having to use really long mathematical algorithms.\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    }
+  ]
+}
